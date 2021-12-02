@@ -4,7 +4,7 @@ import AboutPage from './components/about/About'
 import BagPage from './components/bag/Bag'
 import ProductsPage from './components/products/Products'
 import ItemPage from './components/products/Item'
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from './components/ScrolltoTop';
 
 function App() {
