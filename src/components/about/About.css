@@ -1,0 +1,63 @@
+@font-face { 
+    font-family: 'Cafe24Oneprettynight'; 
+    src: url(../../res/fonts/Cafe24Oneprettynight.ttf) format('truetype'); }
+
+p {
+    font-family: Cafe24Oneprettynight;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#go-down {
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    clear: left;
+    bottom: 0px;
+    width: 70px;
+    margin-bottom: 40px;
+}
+
+#frame-1 {
+    float: inherit;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#frame-2 {
+    float: inherit;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text {
+    margin-left: 150px;
+    float: inherit;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text > #title {
+    font-size: 45px;
+}
+
+#text > #sub_title {
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+
+#text > #content {
+    font-size: 30px;
+    margin: 0;
+}
